@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Sidebar from './components/Sidebar/Sidebar';
+import AboutMe from './components/AboutMe/AboutMe';
+import React from 'react';
+import { Col, Row } from 'antd';
+import 'antd/dist/antd.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+    <Row>
+      <Col span={16} push={8}>
+      <AboutMe/>
+      </Col>
+      <Col span={8} pull={16}>
+      <Sidebar/>  
+      </Col>
+    </Row>
+  </>
   );
 }
 
