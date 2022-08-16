@@ -5,8 +5,8 @@ const Sidebar = () => {
     return (
         <>
             <SidebarPortfolio>
-
-                <AvatarImages src={avatar} alt="avatar" />
+            <AvatarImages src={avatar} alt="avatar" />
+                
                 <Contacts>contacts</Contacts>
 
                 <List>
