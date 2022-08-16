@@ -10,10 +10,10 @@ const Sidebar = () => {
                 <Contacts>contacts</Contacts>
 
                 <List>
-                    <Item><Link href="#">+380986795230</Link></Item>
-                    <Item><Link href="#">igorek.klimuch.97@gmail.com</Link></Item>
-                    <Item><Link href="https://github.com/Igor1997Klimenko">Github</Link></Item>
-                    <Item><Link href="#">Odessa, Ukraine</Link></Item>
+                    <Item><Link href="tel:+380986795230">+380986795230</Link></Item>
+                    <Item><Link href="mailto:igorek.klimuch.97@gmail.com">igorek.klimuch.97@gmail.com</Link></Item>
+                    <Item><Link href="https://github.com/Igor1997Klimenko" target="_blank">Github</Link></Item>
+                    <Item><Link href="https://www.google.com/maps/place/%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+65000/@46.459972,30.7117875,11z/data=!3m1!4b1!4m5!3m4!1s0x40c6318a0b864c43:0x129f8fe28cf2176c!8m2!3d46.482526!4d30.7233095" target="_blank">Odessa, Ukraine</Link></Item>
                 </List>
 
                 <Contacts>tech skills</Contacts>
@@ -45,7 +45,7 @@ const Sidebar = () => {
                 <ListProgramm>
                     <Item><span>Ukrainian — native</span></Item>
                     <Item><span>Russian — native</span></Item>
-                    <Item><span>English — intermediate</span></Item>
+                    <Item><span>English — in the process of studying</span></Item>
                 </ListProgramm>
                 
             </SidebarPortfolio>

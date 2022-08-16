@@ -13,6 +13,10 @@ display: block;
 overflow: hidden;
 padding: 60px 0;
 margin: auto;
+
+  @media screen and (max-width: 1020px){
+    width: 100%;
+  }
 `;
 
 export const Contacts = styled.span`

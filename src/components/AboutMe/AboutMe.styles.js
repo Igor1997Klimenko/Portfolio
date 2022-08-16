@@ -60,12 +60,7 @@ margin: 0;
 
 export const Products = styled.span`
 font-weight: 700;
-padding: 15px 0 0 10px;
-display: block;
-`;
-
-export const Privatbank = styled.span`
-padding: 15px 0 25px 10px;
+padding: 15px 0 10px 10px;
 display: block;
 `;
 
@@ -93,4 +88,21 @@ margin: 0;
 
 export const School = styled.div`
 padding-top: 40px;
+`;
+
+export const Advance  = styled.span`
+display: block;
+font-size: 20px;
+padding: 40px 0 0 10px;
+font-weight: 700;
+text-transform: uppercase;
+text-decoration: underline;
+`;
+
+export const Link = styled.a`
+text-decoration: none;
+
+  &:hover{
+    text-decoration: revert;
+  }
 `;
