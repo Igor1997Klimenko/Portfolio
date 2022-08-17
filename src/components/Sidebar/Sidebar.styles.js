@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SidebarPortfolio = styled.div`
-  background: #fffabf;
+  background: rgb(166 181 167;
   padding: 40px;
 `;
 
